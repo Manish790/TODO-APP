@@ -1,0 +1,94 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.heading{
+    margin: 40px;
+    display: inline-block;
+    background-color: rgb(69, 138, 92);
+    padding: 10px;
+    border-radius: 4px;
+    color:white;
+    font-family:Autonomous Pro;
+}
+label{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    font-weight: bolder;
+
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(36, 36, 124);
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.5rem;
+    background: transparent;
+    color: rgb(56, 56, 134);
+}
+button{
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    background-color: rgb(61, 73, 233);
+    padding: 10px;
+    border-radius: 40px;
+    width: 100px;
+    color: aliceblue;
+
+}
+@media only screen and (max-width: 600px) {
+    li{
+        font-size: 10px;
+    }
+    button {
+      padding: 6px 12px;
+      font-size: 16px;
+      width: 55px;
+    }
+    input{
+        width:200px;
+    }
+    .details li button{
+        width: 40px;
+        padding: 6px;
+        font-size: 12px;
+    }
+}
+button:hover{
+    background-color: rgb(87, 86, 86);
+}
+.details{
+    position: absolute;
+    margin-top: 20px;
+    left: 10px;
+    font-size: 1.4rem;
+    width: fit-content;
+    background-color: rgb(42, 104, 70);
+    border-radius: 5px;
+    
+}
+.details li{
+    background-color: rgb(124, 184, 240);
+    padding: 10px;
+    list-style: none;
+    margin: 10px;
+    border-radius:10px;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: auto;
+    
+}
+.details li button{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(57, 57, 141);
+}
+.details li button:hover{
+  
+    background-color: rgb(43, 43, 109);
+}
